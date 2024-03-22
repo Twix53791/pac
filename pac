@@ -42,7 +42,6 @@ _autoremove (){
 
 _upgrade (){
     pacman -Syu
-    cp /home/archx/.BACKUP/usr/share/X11/xkb/symbols/fr /usr/share/X11/xkb/symbols
 }
 
 _list_package_files (){
